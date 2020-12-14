@@ -1,0 +1,55 @@
+body{
+  background-color: white;
+}
+h1{
+  font-size: 20px;
+  color:darkgrey;
+}
+footer{
+  background-color: #878A8C;
+  height: 100px;
+}
+
+@media (min-width : 992px){
+  .tweet-area{
+    max-width: 57%!important;
+  }
+  }
+@media (min-width : 1200px){
+    .tweet-area{
+      max-width: 77.6%!important;
+    }
+  }
+.twt-card{
+  /*border: 2px solid royalblue;*/
+  border-radius: 10px;
+  margin-bottom:20px;
+  padding-top: 0;
+}
+.twt-card-colored{
+  background-color: white;
+  margin-top: 25px;
+}
+
+.scroll {
+  opacity: 1;
+  /*7ebdb4*/
+  background-color: #A5AA52;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.arrow-up {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -21px;
+  margin-left: -19px;
+  font-size: 40px;
+}
