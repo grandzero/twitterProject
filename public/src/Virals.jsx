@@ -4,21 +4,7 @@ import Spinner from './Spinner'
 //import InfiniteScroll from 'react-infinite-scroller';
 import { InfiniteScroll } from 'react-simple-infinite-scroll'
 import MetaTags from 'react-meta-tags';
- /*
-import * as firebase from 'firebase';
-var firebaseConfig = {
-    apiKey: "AIzaSyBl-XfPHlGwAkvtbPFUM1hsMsLSyeQyD4I",
-    authDomain: "twitterproject-5ad00.firebaseapp.com",
-    databaseURL: "https://twitterproject-5ad00.firebaseio.com",
-    projectId: "twitterproject-5ad00",
-    storageBucket: "twitterproject-5ad00.appspot.com",
-    messagingSenderId: "623278412282",
-    appId: "1:623278412282:web:457125eaaab27db83e9443",
-    measurementId: "G-3E8V3S1HHL"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-*/
+
 var counter = 0;
 const LOADING_BATCH_SIZE = 5;
 
